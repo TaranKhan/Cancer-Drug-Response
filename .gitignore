@@ -1,0 +1,6 @@
+data/* 
+!data/README.txt 
+results/* 
+*.ipynb_checkpoints 
+.DS_Store 
+.env 
