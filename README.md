@@ -61,6 +61,46 @@ Highlights the most influential genes driving drug response prediction.
 
 **SHAP Summary Plot:**  
 Explains each gene’s contribution to sensitivity or resistance. 
+All figures are automatically saved in:  
+`results/figures/`
+
+---
+
+## 💡 Biological Impact
+
+Predicting cancer drug response before treatment is vital for **precision oncology**.  
+This workflow demonstrates how integrating machine learning with gene expression can:
+
+- Identify **biomarkers of drug sensitivity**  
+- Reveal **molecular mechanisms of resistance**  
+- Support **personalized therapy design**
+
+While this prototype uses synthetic data, it can be directly applied to real-world datasets such as **GDSC** and **CCLE**.
+
+---
+
+## 🚀 Next Steps
+
+- Integrate **real GDSC expression + IC50 data** (e.g., Trametinib, Cisplatin)  
+- Extend to **multi-drug and multi-omics** models  
+- Add pathway features using **GSEA/ssGSEA**  
+- Deploy an **interactive Streamlit app** for visualization  
+
+---
+
+## 👩‍💻 Author
+
+**Taran Khan**  
+Bioinformatics & Data Science | Transcriptomics | Machine Learning for Precision Medicine  
+📫 [LinkedIn](https://www.linkedin.com/in/taran-khan-bioinformatics)  
+📂 [GitHub](https://github.com/TaranKhan)
+
+---
+
+## 🌟 Vision
+
+> “The future of medicine is predictive.  
+> The future of prediction is data.”
 
 
 ### Environment Setup
