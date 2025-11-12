@@ -34,8 +34,40 @@ To build the proof of concept, a **synthetic dataset** was created mimicking rea
 
 Built in **Python 3.10** using an **Anaconda** environment.
 
+## 📊 Results Summary
+
+**Random Forest Model**
+
+- **R² (Coefficient of Determination):** 0.54  
+- **RMSE (Root Mean Squared Error):** 0.12  
+- **Spearman Correlation:** 0.80  
+
+**Top Predictive Genes**
+- GENE 5  
+- GENE 77  
+- GENE 301  
+
+These were the same genes intentionally embedded in the synthetic dataset, confirming that the model identified the correct biological signal.
+
+---
+
+## 🎨 Visual Insights
+
+**Predicted vs Actual Plot:**  
+Shows a clear linear trend between predicted and actual IC50 values, validating the model fit.  
+
+**Feature Importance Plot:**  
+Highlights the most influential genes driving drug response prediction.  
+
+**SHAP Summary Plot:**  
+Explains each gene’s contribution to sensitivity or resistance. 
+
+
 ### Environment Setup
 ```bash
 conda create -n drugresp python=3.10 -y
 conda activate drugresp
 pip install pandas numpy scikit-learn scipy matplotlib seaborn xgboost shap gseapy pyreadr pyarrow
+
+---
+
